@@ -1,10 +1,9 @@
-using RentCar.Data.Classes;
-using RentCar.Business.Classes;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using RentCar.App;
+using RentCar.Business.Classes;
+using RentCar.Data.Classes;
 using RentCar.Data.Interfaces;
-using RentCar.Common.Classes;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
